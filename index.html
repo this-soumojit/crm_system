@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRM Website</title>
+<style>
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#04AA6D;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+opacity:0.8;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <h1>SimpleCRM</h1>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container main-content">
+    <h2>Welcome to SimpleCRM</h2>
+    <p>Take control of your customer relationships with our powerful CRM solution.</p>
+    <a href="user/sign_in.php" class="btn">Get Started as an user</a>
+    <a href="admin/admin_signin.php" class="btn">Get Started as admin</a>
+</div>
+
+</body>
+</html>
